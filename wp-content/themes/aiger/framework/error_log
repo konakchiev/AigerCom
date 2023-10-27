@@ -1,0 +1,11 @@
+[08-Mar-2023 20:14:27 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 14
+[09-Mar-2023 17:46:06 Europe/Sofia] PHP Parse error:  syntax error, unexpected '$to' (T_VARIABLE) in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 7
+[09-Mar-2023 17:46:14 Europe/Sofia] PHP Warning:  require(../../wp-includes/class-phpmailer.php): failed to open stream: No such file or directory in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 2
+[09-Mar-2023 17:46:14 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../../wp-includes/class-phpmailer.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 2
+[09-Mar-2023 17:46:22 Europe/Sofia] PHP Warning:  require(../../../wp-includes/class-phpmailer.php): failed to open stream: No such file or directory in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 2
+[09-Mar-2023 17:46:22 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../../../wp-includes/class-phpmailer.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 2
+[09-Mar-2023 17:49:23 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function IsSMTP() on null in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php:10
+Stack trace:
+#0 /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php(28): my_function()
+#1 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/framework/send_email.php on line 10

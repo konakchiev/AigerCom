@@ -1,0 +1,58 @@
+[09-Mar-2023 17:58:50 Europe/Sofia] PHP Warning:  require(../../../../wp-includes/class-phpmailer.php): failed to open stream: No such file or directory in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 2
+[09-Mar-2023 17:58:50 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../../../../wp-includes/class-phpmailer.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 2
+[09-Mar-2023 17:59:08 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 2
+[09-Mar-2023 17:59:31 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 2
+[09-Mar-2023 17:59:43 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function IsSMTP() on null in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php:10
+Stack trace:
+#0 /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php(28): my_function()
+#1 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 10
+[09-Mar-2023 18:00:02 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function IsSMTP() on null in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php:10
+Stack trace:
+#0 /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php(28): my_function()
+#1 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 10
+[09-Mar-2023 18:01:03 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function wp_mail() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 17
+[09-Mar-2023 18:01:13 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function wp_title() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/header.php:4
+Stack trace:
+#0 /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php(3): include()
+#1 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/header.php on line 4
+[09-Mar-2023 18:01:50 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function wp_title() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/header.php:4
+Stack trace:
+#0 /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php(3): include()
+#1 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/header.php on line 4
+[09-Mar-2023 18:03:18 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/send_email.php on line 2
+[09-Mar-2023 18:07:20 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php on line 5
+[09-Mar-2023 18:30:38 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php on line 5
+[09-Mar-2023 18:31:27 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php on line 5
+[09-Mar-2023 18:32:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php on line 5
+[09-Mar-2023 18:49:02 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/agencysc/chris.siberiareal.com/wp-content/themes/webix/template-calculator.php on line 5
