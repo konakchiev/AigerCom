@@ -68,21 +68,23 @@ strong {
 
 .navi ul li {
     display: inline-block;
-    margin: 35px 40px 35px 0;
+    margin: 35px 15px 35px 0;
 }
 
 .navi ul li a{
-    color: #242525;
+    color: #003e5a;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-
-    font-size: 1.125rem;
+    font-size: 13px;
     letter-spacing: -0.5px;
     padding: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .navi ul li a:hover {
-    border-bottom: 2px solid #252525;
+    color: #f38f39;
 }
 
 .navi ul li:last-child {
@@ -90,34 +92,53 @@ strong {
 }
 
 .logo img {
-    width: 150px;
+    width: 200px;
     margin: 30px 0;
 }
 
 .btn-primary {
-    background: #ee9a1d;
-    border: 1px solid #ee9a1d;
-    border-radius: 6px;
+    background: #e7ebee;
+    border: 2px solid #f5821f;
+    border-radius: 50px;
     padding: 8px 35px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     transition: all .2s linear;
-    color: #272727;
+    color: #003a5d;
+    margin: 40px auto 0;
+    display: block;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .btn-primary:hover {
     background: transparent;
     color: #272727;
     transition: all .2s linear;
-    border: 1px solid #ee9a1d;
+    border: 2px solid #f5821f;
 }
 
 .slider {
-    background: url(/wp-content/uploads/2023/03/slider-6.jpg);
-    background-size: cover;
-    background-position: center 80%;
-    padding: 50px 0;
+    background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/background_first.png);
+    background-size: cover!important;
+    background-position: center center!important;
+    padding: 40px 0;
 }
+
+.slider span, .first--section span, .span-title {
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: block;
+}
+
+
 
 .slider img {
     width: 500px;
@@ -126,11 +147,11 @@ strong {
 }
 
 .slider h1  {
-    color: #fff;
-    font-family: 'DM Sans', sans-serif;
+    color: #013f5b;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 48px;
-    margin: 170px 0 0 0;
+    font-size: 38px;
+    text-align: center;
 }
 
 .slider p {
@@ -140,13 +161,136 @@ strong {
     font-size: 1.2rem
 }
 
+.orange {
+    color: #ff8400;
+    display: inline;
+}
+
 .first--section {
-    padding: 100px 0;
+    padding: 40px 0;
     text-align: center;
-    background: #fafafa;
+    background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/background_second.jpg);
+    background-size: cover!important;
+    background-position: center center!important;
+}
+
+.first--section h2, .second--section h2, .third--section h2, .four--section h2, .predobivki h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff8400;
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+}
+
+.predobivki h2 {
+    font-size: 32px;
+    color: #1e3c56;
+}
+
+.four--section h2 {
+    text-align: center;
+    color: #1e3c56;
+    font-size: 36px;
+}
+
+.predobivki .left{
+    float: left;
+    width: 30%;
+}
+
+.predobivki .left img {
+    width: 80%;
+}
+
+.predobivki .right {
+    float: right;
+    width: 70%;
+}
+
+.predobivki .right h4 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #1e3c56;
+}
+
+.predobivki .right p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.third--section h2 {
+    font-size: 36px;
+}
+
+.first--section p, .second--section p, .four--section p {
+    font-family: 'Montserrat', sans-serif;
+    color: #003e5a;
+    font-weight: 500;
+    text-align: center;
+}
+
+.four--section p {
+    text-align: left;
+    font-size: 22px;
+}
+
+.cennosti-tab li {
+    color: #f27700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    border: 2px solid #1e3c56;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.predobivki {
+    padding: 40px 0;
+    background: url('http://localhost/AigerCom/wp-content/uploads/2023/11/background_3.png');
+    background-size: cover!important;
+}
+
+.second--section h2 {
+    font-size: 32px;
+}
+
+.tab-ekipi {
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+.tab-ekipi img {
+    margin: 0 auto;
+    display: block;
 }
 
 
+.tab-ekipi h4 {
+    color: #003e5a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 30px 0 0 0;
+    font-size: 20px;
+}
+
+.tab-ekipi p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 15px 0 0 0;
+    color: #003e5a;
+    font-size: 14px;
+}
+
+
+.third--section {
+    background: url('http://localhost/AigerCom/wp-content/uploads/2023/11/background_4.png');
+    background-size: cover!important;
+    padding: 40px 0;
+    background-position: center center;
+}
 
 .bottom-footer {
     background: #272727;
@@ -162,18 +306,38 @@ strong {
     margin: 0;
 }
 
-.first--section h2 {
-    color: #1d242d;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 600;
-    font-size: 42px;
+.aiger-ab {
+    margin:0 auto;
+    padding: 0;
+    text-align: center;
 }
 
-.first--section p {
-    color: #5d5d5d;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+.aiger-ab li {
+    display: inline-block;
+    margin: 0 30px 0 0;
+}
+
+.aiger-ab li h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #003e5a;
+    font-size: 20px;
+}
+
+.aiger-ab li img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.aiger-ab li .orange {
+    font-weight: 600;
+}
+
+.second--section {
+    padding: 40px 0;
+    background: url('http://localhost/AigerCom/wp-content/uploads/2023/11/background_3.png');
+    background-size: cover!important;
 }
 
 
@@ -415,7 +579,7 @@ strong {
 }
 
 .sticky-header .navi ul li {
-    margin: 22px 40px 20px 0;
+    margin: 22px 10px 10px 0;
 }
 
 input {
@@ -455,7 +619,7 @@ textarea {
 }
 
 .current-menu-item a {
-    border-bottom: 2px solid #252525;
+    color: #f38f39;
     padding: 10px 0;
 }
 
@@ -991,12 +1155,42 @@ footer .current-menu-item a {
     display: none;
 }
 
+.third--section p:first-child {
+    margin-bottom: 1rem;
+}
+
+.third--section p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #1e3c56;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.blue {
+    display: inline;
+    color: #1e3c56;
+}
+
+.four--section {
+    padding: 40px 0;
+    background: url('http://localhost/AigerCom/wp-content/uploads/2023/11/background_5.png');
+    background-size: cover!important;
+    background-position: center center!important;
+}
+
 .btn-secondary {
-    background: transparent;
-    border: 1px solid #ee9a1d;
-    color: #272727;
+    background: #1e3c56;
+    color: #fff;
     padding: 13px 40px!important;
-    border-radius: 6px;
+    border-radius: 50px;
+    margin: 40px auto;
+    display: block;
+    width: 250px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .btn-secondary:hover {
