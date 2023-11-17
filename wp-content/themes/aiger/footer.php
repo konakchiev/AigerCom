@@ -26,20 +26,7 @@
                 </div>
     </div>
     </footer>
-<div class="bottom-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <p>Copyright &copy; 2023 Integral World Wide | All Rights Reserved</p>
-            </div>
-            <div class="col-lg-6">
-                <a href="#">
-                    <img class="developedby" src="https://integral.deversity.eu/wp-content/uploads/2023/03/developedby-white.png">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <div class="cookie-bar is-active" data-cookie-bar="">
     <div class="container cookie-bar__container">
