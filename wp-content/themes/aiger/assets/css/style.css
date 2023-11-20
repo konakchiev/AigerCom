@@ -124,7 +124,7 @@ strong {
 .slider {
     background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/background_first.png);
     background-size: cover!important;
-    background-position: center center!important;
+
     padding: 40px 0;
 }
 
@@ -174,7 +174,7 @@ strong {
     background-position: center center!important;
 }
 
-.first--section h2, .second--section h2, .third--section h2, .four--section h2, .predobivki h2, .video--section h2 {
+.first--section h2, .second--section h2, .third--section h2, .four--section h2, .predobivki h2, .video--section h2, .ct--section h2 {
     font-family: 'Montserrat', sans-serif;
     color: #ff8400;
     font-weight: 600;
@@ -224,7 +224,7 @@ strong {
     font-size: 36px;
 }
 
-.first--section p, .second--section p, .four--section p, .video--section p {
+.first--section p, .second--section p, .four--section p, .video--section p, .ct--section p {
     font-family: 'Montserrat', sans-serif;
     color: #003e5a;
     font-weight: 500;
@@ -275,12 +275,19 @@ strong {
 }
 
 
-.tab-ekipi h4 {
+.tab-ekipi h4, .faq--section h2 {
     color: #003e5a;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin: 30px 0 0 0;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.faq--section h2 {
+    text-align: center;
+    font-size: 34px;
+    margin: 0 0 70px 0;
 }
 
 .tab-ekipi p {
@@ -300,18 +307,19 @@ strong {
 }
 
 .bottom-footer {
-    background: #272727;
+    background: #e7ebee;
     margin: 0;
+    padding: 0;
+    text-align: right;
+    color: #003a5d;
 }
 
 .bottom-footer p {
-    padding: 25px 0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: #fff;
-    margin: 0;
+    color: #003a5d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
+
 
 .aiger-ab {
     margin:0 auto;
@@ -497,20 +505,15 @@ strong {
 }
 
 
-.contact--section {
-    padding: 50px 0;
+.ct--section {
+    padding: 40px 0;
 }
 
 .contact--section img {
     margin: 80px 0 0 0;
 }
 
-.contact--section h2 {
-    color: #252525;
-    font-size: 42px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-}
+
 
 .contact--section p, .contact--section2 p, .handset--section p, .features--section p, .contract--section p, .calc--section p {
     color: #5d5d5d;
@@ -541,16 +544,21 @@ strong {
 }
 
 .wpcf7-submit {
-    margin: 0;
-    width: 150px;
-    background: #ee9a1d;
-    border: 1px solid #ee9a1d;
-    border-radius: 6px;
+    background: #e7ebee;
+    border: 2px solid #f5821f;
+    border-radius: 50px;
     padding: 8px 35px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     transition: all .2s linear;
-    color: #272727;
+    color: #003a5d;
+    margin: 40px auto 0;
+    display: block;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -559,9 +567,11 @@ strong {
 }
 
 .wpcf7 {
-    background: #fff;
+    background: transparent;
     padding: 50px;
     border-radius: 15px;
+    width: 550px;
+    margin: 0 auto;
 }
 
 .wpcf7 label,  .wpcf7-form-control-wrap {
@@ -570,9 +580,10 @@ strong {
 
 .wpcf7 label {
     width: 100%;
-    background: #fff;
+    background: transparent;
     color: #252525;
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
@@ -590,12 +601,13 @@ strong {
 }
 
 input {
-    border: 1px solid #b4b4b4;
-    border-radius: 4px;
+    border: 2px solid #000;
+    border-radius: 8px;
     padding: 10px 15px;
     width: 100%;
     font-size: 14px;
     display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 
 textarea {
@@ -635,7 +647,8 @@ footer {
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    padding: 80px 0;
+    padding: 30px 0;
+    background: #e7ebee;
 }
 
 footer a {
@@ -658,14 +671,8 @@ footer .widgte h2 {
 }
 
 footer ion-icon {
-    color: #fff;
-    font-size: 20px;
-    position: relative;
-    top: 10px;
-    margin: 0 5px 0 0;
-    background: #d8702d;
-    padding: 5px;
-    border-radius: 50%;
+    color: #003a5d;
+    font-size: 30px;
 }
 
 footer .menu li {
@@ -1043,9 +1050,10 @@ footer .current-menu-item a {
     padding: 100px 0;
 }
 
-.contact--section {
-    background: #FFBE3C;
-    border-radius: 12px;
+.ct--section {
+    background:url(http://localhost/AigerCom/wp-content/uploads/2023/11/background_contact.jpg);
+    background-position: center!important;
+    background-size: cover!important;
 }
 
 
@@ -1396,7 +1404,7 @@ footer .current-menu-item a {
 
 .modal-header {
     background: #1e3c56;
-    color: #fff;
+    color: #fff!important;
 }
 
 .close {
@@ -1408,6 +1416,8 @@ footer .current-menu-item a {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    margin: 0!important;
+    color: #fff!important;
 }
 
 .modal-body {
@@ -1428,3 +1438,199 @@ footer .current-menu-item a {
     border: 4px solid #ff9320;
 }
 
+.zadachi {
+    text-align: left;
+    color: #ff8400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    text-decoration: underline;
+    margin: 30px 0 0 0;
+}
+
+.zadachi-opisanie {
+    text-align: left!important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1e3c56;
+    font-weight: 400;
+}
+
+.zadachi-img {
+    position: relative;
+    top: 80px;
+}
+
+.team-aiger li {
+    width: 23%;
+    display: inline-block;
+    margin: 0 0.8%;
+}
+
+.team-aiger li:hover .quote {
+    z-index: 10000000;
+    transition: all .3s linear;
+}
+
+.the-person {
+    transition: all .3s linear;
+}
+
+.team-aiger li:hover .the-person {
+    height: 450px!important;
+    transition: all .3s linear;
+}
+
+.team-aiger li:nth-child(3) .quote {
+    height: 170px!important;
+}
+
+.team-aiger li div {
+    height: 400px;
+    background-size: cover!important;
+    background-position: center!important;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.2);
+    margin: 50px 0 0 0;
+}
+
+.team-aiger li div h6 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+   position: relative;
+   top: 50px;
+}
+
+.quote {
+    background: #e7ebee;
+    height: 130px!important;
+    padding: 30px;
+    position: relative;
+    top: -30px;
+    width: 130%;
+    border-radius: 50px!important;
+    margin: 0 auto!important;
+    display: block;
+    left: -43px;
+    transition: all .3s linear;
+}
+
+.quote p {
+    color: #003a5d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    width: 80%;
+    float: left;
+}
+
+.quote img {
+    width: 50px;
+    float: right;
+}
+
+.faq--section {
+    padding: 40px 0;
+    background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/background_faq.jpg);
+    background-size: cover!important;
+    background-position: center!important;
+}
+
+#accordion .card {
+    height: auto!important;
+    background: transparent!important;
+    border: 0!important;
+    padding:0!important;
+}
+
+#accordion .card .card-header {
+    border: 2px solid #ff8400;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#accordion .card .card-header h5 button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700!important;
+    color: #1e3c56;
+}
+
+
+.card-body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e3c56;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+#accordion .card .card-header h5 button:hover {
+    color: #ff8400;
+    text-decoration: none;
+}
+
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+    color: #ff8400!important;
+}
+
+.btn-link.focus, .btn-link:active {
+    text-decoration: none;
+    color: #ff8400!important;
+}
+
+.btn-link.focus, .btn-link:visited {
+    text-decoration: none;
+    color: #ff8400!important;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.logo-footer {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer iframe {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.aiger-contact {
+    margin: 50px 0 0 0;
+}
+
+.aiger-contact h4 {
+    color: #ff8400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.aiger-contact p {
+    color: #083c59;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-fot {
+    text-align: right;
+}
+
+.social-fot ul li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+
+.social-fot ul li:last-child {
+    margin: 0;
+}
