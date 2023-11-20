@@ -6,7 +6,7 @@ get_header();
 ?>
 
 
-<section class="slider">
+<section id="home" class="slider">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -53,7 +53,7 @@ get_header();
                         </div>
                     </li>
                 </ul>
-                <a href="" class="btn-primary btn">Свободни позиции</a>
+                <a href="#kontakti" class="btn-primary btn">Свободни позиции</a>
             </div>
         
         </div>
@@ -61,7 +61,7 @@ get_header();
 </section>
 
 
-<section class="first--section">
+<section id="za-nas" class="first--section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -112,7 +112,7 @@ get_header();
     </div>
 </section>
 
-<section class="second--section">
+<section id="ekipi" class="second--section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -500,7 +500,7 @@ get_header();
 </section>
 
 
-<section class="third--section">
+<section id="akademi" class="third--section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -544,7 +544,7 @@ get_header();
 </section>
 
 
-<section class="four--section">
+<section id="cenosti" class="four--section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12"> 
@@ -582,7 +582,7 @@ get_header();
 </section>
 
 
-<section class="predobivki">
+<section id="predobivki" class="predobivki">
     <div class="container">
         <div class="row">   
             <div class="col-lg-12">
@@ -710,7 +710,7 @@ get_header();
 </section>
 
 
-<section class="video--section">
+<section id="videa" class="video--section">
     <div class="container">
     <span class="span-title">
                 Култура и среда
@@ -985,7 +985,7 @@ get_header();
     </div>
 </section>
 
-<section class="faq--section">
+<section id="faq" class="faq--section">
     <div class="container">
     <span class="span-title">Вие питате - ние отговаряме</span>
                 <h2>Често задавани въпроси
@@ -1145,7 +1145,7 @@ get_header();
     </div>
 </section>
 
-<section class="ct--section">
+<section id="kontakti" class="ct--section">
     <div class="container">
     <span class="span-title">За нас</span>
                 <h2>Ние сме Айгер, ние създаваме!</h2>

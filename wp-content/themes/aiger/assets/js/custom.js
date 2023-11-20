@@ -11,4 +11,24 @@ jQuery(document).ready(function($) {
             jQuery('body').css('padding-top', '0');
         }
     });
+
+    jQuery('.navi a').click(function(event) {
+        var id = jQuery(this).attr("href");
+        var offset = 70;
+        var target = jQuery(id).offset().top - offset;
+        jQuery('html, body').animate({
+            scrollTop: target
+        }, 500);
+        event.preventDefault();
+    });
+
+    jQuery('.btn').click(function(event) {
+        var id = jQuery(this).attr("href");
+        var offset = 70;
+        var target = jQuery(id).offset().top - offset;
+        jQuery('html, body').animate({
+            scrollTop: target
+        }, 500);
+        event.preventDefault();
+    });
 });
