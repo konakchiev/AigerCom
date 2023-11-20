@@ -403,7 +403,191 @@ get_header();
 </section>
 
 
+<section class="video--section">
+    <div class="container">
+    <span class="span-title">
+                Култура и среда
+                </span>
+                <h2>
+                Където важният си ти.
+                </h2>
+                <p>Осигуряваме среда, изпълнена с много вдъхновение, стремеж към развитие и положително отношение. 
+Запознай се с креативни хора, които са част от нашата култура.
+</p>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="the-video">
+                    <a data-toggle="modal" data-target=".bd-example-modal-lg" href="#">Разгледай тук</a>
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
 
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel">Заповядай в Айгер</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/svLc_PZh6HE?si=X9RCEiZnoEEZ41T-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Пътят на детайла</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/fTdFzLfeS34?si=AYLmeH_XzMcCDC2P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Ние сме Айгер</h4>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <h4 class="title-video">Заповядай в Айгер</h4>
+                <p>В продължение на 30 години в бизнеса, градим устойчиво доверие чрез отговорността за високи постижения. Всеки ден се грижим за качеството на нашите продукти, за поведението към доставчици и служители, както и за опазването на околната среда и обществото.</p>
+            </div>
+            <div class="col-lg-6">
+                <div style="background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/video2.png);" class="the-video">
+                    <a data-toggle="modal" data-target=".modal2" href="#">Разгледай тук</a>
+                    <div class="modal fade bd-example-modal-lg modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel">Coциални събития</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/5Sm3ssX8KU4?si=jaYepveTk6NQyBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Айгер за Пловдив</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/PD25p3ZKl1Q?si=lmuCTnMhLv8Pbd80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Детско парти 2022</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/mi_bDiCVt7U?si=YRW9o0pLtUpDliuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Детско парти 2023</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/Ayd4AxCx4EI?si=psR8w3u4gvTpC1Sy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Летен излет на Айгер</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/KBv1xvqzy88?si=Eq5tU-xl6STUvOJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>8-ми март 2022</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/tO0_QPTLAtg?si=JKxqBt6iJKcyj2vH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>8-ми март 2023</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/1NXqf-0s_Tg?si=HPqZ2Gq4G9Ids8ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Game Night в Айгер</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/D5lKr3hBUP4?si=yHvLOCOy-pCSvWJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Подновяване маркировка хижа Рай</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/F1JGd_eqlCQ?si=18UP6CM7Yb_WAzXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Айгер за Пловдив - парк Рибница</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/zsuNdQpu-J8?si=wFjaSZhwX1mJH400" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Айгер за Пловдив - Парк Лаута</h4>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <h4 class="title-video">Социални събития</h4>
+                <p>В Айгер сме фокусирани върху социалната отговорност - ние сме общност и сме отговорни към обществото. Разбираме необходимостта да запретнем ръкави и да изградим по-добър свят и бъдеще както за нас, така и за семействата ни.
+Водени от нашите ценности, всяка година се ангажираме с множество социални инициативи.
+</p>
+            </div>
+            <div class="col-lg-6">
+                <div style="background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/video3.png);" class="the-video">
+                    <a data-toggle="modal" data-target=".modal3" href="#">Разгледай тук</a>
+                    <div class="modal fade bd-example-modal-lg modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myLargeModalLabel">Служители</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/5Sm3ssX8KU4?si=jaYepveTk6NQyBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Айгер за Пловдив</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/PD25p3ZKl1Q?si=lmuCTnMhLv8Pbd80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Детско парти 2022</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/mi_bDiCVt7U?si=YRW9o0pLtUpDliuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Детско парти 2023</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/Ayd4AxCx4EI?si=psR8w3u4gvTpC1Sy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Летен излет на Айгер</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/KBv1xvqzy88?si=Eq5tU-xl6STUvOJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>8-ми март 2022</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/tO0_QPTLAtg?si=JKxqBt6iJKcyj2vH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>8-ми март 2023</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/1NXqf-0s_Tg?si=HPqZ2Gq4G9Ids8ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Game Night в Айгер</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/D5lKr3hBUP4?si=yHvLOCOy-pCSvWJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Подновяване маркировка хижа Рай</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/F1JGd_eqlCQ?si=18UP6CM7Yb_WAzXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Айгер за Пловдив - парк Рибница</h4>
+                                </div>
+                                <div class="col-lg-6">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/zsuNdQpu-J8?si=wFjaSZhwX1mJH400" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <h4>Айгер за Пловдив - Парк Лаута</h4>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <h4 class="title-video">Служители</h4>
+                <p>Нашият екип - най-важната част от Айгер. Затова за нас е важно да знаем как се чувстват нашите служители и какво мислят те в голямото ни семейство. За да го споделим с теб, запечатахме всеки един момент.</p>
+            </div>
+            <div class="col-lg-6">
+                <div style="background: url(http://localhost/AigerCom/wp-content/uploads/2023/11/vidoe4.png);" class="the-video">
+                    <a href="#">Разгледай тук</a>
+                </div>
+                <h4 class="title-video">Кариера в Айгер</h4>
+                <p>Устойчивостта и социалната отговорност са дългосрочни фактори за успех. Пътят нагоре никога не е лесен, но в зависимост от това колко силно искаш да стигнеш до върха, ние ще ти помогнем за реализирането на мечтите ти.
+</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php
